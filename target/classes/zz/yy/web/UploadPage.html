@@ -1,0 +1,19 @@
+<wicket:panel>
+    <form wicket:id="ajax-simpleUpload">
+     <fieldset>
+      <legend>Upload form with ajax progress bar</legend>
+        <p>
+        <label for="upload">File</label>
+        <input wicket:id="fileInput" type="file"/>
+        </p>
+        <input type="submit" value="Upload!"/>
+        <span wicket:id="progress">[[ajax upload progressbar]]</span>
+     </fieldset>
+    </form>
+
+     <div>
+        <span wicket:id="uploadFeedback"/>
+     </div>
+</wicket:panel>
+
+
